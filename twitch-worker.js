@@ -1,5 +1,4 @@
-// 定义 GitHub 仓库 URL 变量
-const githubRepoURL = "https://github.com/yourusername/yourrepository/twitch-worker.js";
+const GITHUB_REPO_URL = "https://raw.githubusercontent.com/frankpage/epeius/main/twitch-worker.js";
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
